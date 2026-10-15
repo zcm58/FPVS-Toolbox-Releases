@@ -1,22 +1,20 @@
-# FPVS Toolbox releases
+# FPVS Toolbox release archive
 
-Official Windows downloads for FPVS Toolbox.
+This repository preserves historical Windows installers and release notes.
+[Browse the historical downloads](https://github.com/zcm58/FPVS-Toolbox-Releases/releases).
 
-**[Download the latest installer](https://github.com/zcm58/FPVS-Toolbox-Releases/releases/latest)**
+Application source and future releases are maintained at
+[FPVS-Toolbox](https://github.com/zcm58/FPVS-Toolbox).
+Use its [releases page](https://github.com/zcm58/FPVS-Toolbox/releases) for new versions.
+Version 3 has not been published yet.
 
-This repository contains release files and release notes. Application source and
-development history are maintained in a separate private repository. GitHub's
-automatic source ZIP/TAR downloads contain only this repository's public files,
-not the application source; download the `.exe` installer under Assets.
+Published v2.1.2 installers still check the previous private repository for
+updates. When v3 becomes available, download its full installer manually from
+the new releases page. V3's subsequent update checks use the new repository.
+The historical installers here remain unchanged.
 
-## Update transition
-
-The existing 2.1.2 and earlier installers are preserved unchanged. Their built-in
-update checks still use the former public address and will no longer work after
-the source repository becomes private. The upcoming 3.0.0 installer will use this
-public release repository. Install that version manually when it becomes
-available; subsequent in-app update checks and downloads will use this address
-without requiring a GitHub account. Version 3.0.0 has not been published yet.
+For an installation, download the `.exe` asset. This archive's automatic source
+ZIP/TAR downloads contain its public repository files, not the application source.
 
 Existing releases retain their original licensing terms. Moving distribution
 does not change permissions already granted for those versions.
